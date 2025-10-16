@@ -15,7 +15,7 @@ class SimpleBrowser(QMainWindow):
         
         # Widget do navegador
         self.browser = QWebEngineView()
-        self.browser.setUrl(QUrl('https://www.google.com'))
+        self.browser.setUrl(QUrl('http://localhost:5173'))
         
         # Barra de endereço
         self.url_bar = QLineEdit()

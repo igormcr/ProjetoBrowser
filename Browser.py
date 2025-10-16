@@ -61,7 +61,7 @@ class SimpleBrowser(QMainWindow):
         self.browser.setUrl(QUrl(url))
     
     def navigate_home(self):
-        self.browser.setUrl(QUrl('https://www.google.com'))
+        self.browser.setUrl(QUrl('http://localhost:5173'))
     
     def update_url(self, q):
         self.url_bar.setText(q.toString())
